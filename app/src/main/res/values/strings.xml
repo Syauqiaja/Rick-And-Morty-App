@@ -15,4 +15,11 @@
     <string name="name">Name</string>
     <string name="type">Type</string>
     <string name="location">Location</string>
+    <string name="loading_content">Please wait...</string>
+    <string name="we_didn_t_find_anything">Sorry, we didn\'t find anything</string>
+    <string name="search_your_character">Search your character</string>
+    <string name="your_favorite_character">Your favorite character</string>
+    <string name="favorite">Favorite</string>
+    <string name="homepage">Homepage</string>
+    <string name="discover">Discover</string>
 </resources>
