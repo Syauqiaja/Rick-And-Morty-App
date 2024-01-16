@@ -93,4 +93,8 @@ dependencies {
     annotationProcessor("com.google.dagger:hilt-compiler:$hiltVersion")
     ksp("com.google.dagger:hilt-compiler:$hiltVersion")
     ksp("androidx.hilt:hilt-compiler:1.1.0")
+
+    // Paging 3
+    implementation("androidx.room:room-paging:2.6.1")
+    implementation("androidx.paging:paging-runtime-ktx:3.2.1")
 }
