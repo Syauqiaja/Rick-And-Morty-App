@@ -11,6 +11,7 @@
     <color name="black_30">#4D121826</color>
     <color name="white">#FFFFFF</color>
     <color name="white_30">#4DFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
 
     <color name="purple">#7F52FF</color>
     <color name="lilac">#9F3BC2</color>
@@ -50,7 +51,7 @@
 
     <color name="warning_light">#FDE047</color>
     <color name="warning_base">#FACC15</color>
-    <color name="warinng_dark">#EAB308</color>
+    <color name="warning_dark">#EAB308</color>
 
     <color name="success_light">#84DDA5</color>
     <color name="success_base">#64C086</color>
@@ -60,6 +61,6 @@
     <color name="text_black">@color/gray_900</color>
     <color name="text_body">@color/gray_800</color>
     <color name="text_body_light">@color/gray_500</color>
-    <color name="text_secondary">@color/gray_300</color>
+    <color name="text_secondary">@color/white</color>
     <color name="shimmer">#DDDDDD</color>
 </resources>

@@ -2,4 +2,17 @@
     <string name="app_name">RickMortyApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_name">Rick Morty</string>
+    <string name="alive">Alive</string>
+    <string name="episode_count">%s Eps</string>
+    <string name="suggested_for_you">Suggested for you</string>
+    <string name="human">Human</string>
+    <string name="species">Species</string>
+    <string name="gender">Gender</string>
+    <string name="episodes">Episodes</string>
+    <string name="origin">Origin</string>
+    <string name="sample_dimension">Dimension C-137</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="location">Location</string>
 </resources>

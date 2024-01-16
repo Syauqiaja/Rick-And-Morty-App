@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:shapeAppearance="@style/ShapeAppearanceOverlay.RoundedCornerCard.16dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_char_profile_head"
+            android:layout_width="72dp"
+            android:layout_height="96dp"
+            android:src="@drawable/img_sample_char_head"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.RoundedCornerCard.8dp"/>
+        <TextView
+            android:id="@+id/tv_char_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/iv_char_profile_head"
+            app:layout_constraintTop_toTopOf="@id/iv_char_profile_head"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            style="@style/TextAppearance.AppCompat.Headline5"
+            android:textColor="@color/text_body"
+            android:text="@string/sample_name" />
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_char_name"
+            android:layout_marginEnd="4dp"
+            android:text="@string/alive"
+            style="@style/TextAppearance.AppCompat.Body.Large.SemiBold"
+            android:textColor="@color/primary_base"/>
+
+        <TextView
+            android:id="@+id/tv_count_episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_char_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_char_name"
+            android:text="@string/episode_count"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
